@@ -1,0 +1,11 @@
+#grid-container {
+    display: grid;
+    width: 980px;
+    height: 980px;
+}
+
+.square {
+    aspect-ratio: 1 / 1; /* Ensures a 1:1 aspect ratio */
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
